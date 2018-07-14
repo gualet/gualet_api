@@ -1,0 +1,25 @@
+user {
+  "id" : "String",
+  "username": "String",
+  "password": "String",
+  "firstName": "String",
+  "lastName": "String",
+  "gender": "String",
+  "birthDate" : "Date"
+}
+
+account {
+  "id" : "String",
+  "name" : "String",
+  "userId" : "String",
+  "amount" : "Double",
+  "debt" : "Double",
+  "type" : "String"
+}
+
+Transaction {
+  "id" : "String",
+  "accountId" : "String",
+  "amount" : "Double",
+  "date" : "Date"
+}
